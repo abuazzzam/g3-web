@@ -72,6 +72,47 @@ nav li a {
     width: 100%;
 }
 
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* eam style */
+
+
+.team-container{
+    display: flex;
+    align-items: center;
+}
+.team-content{
+    padding: 0 70px;
+}
+
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.team-title{
+    font-size: 2.8rem;
+}
+.quick-list{
+ color: #727272;
+ font-weight: 500;
+}
+.ofour{
+    color:  #131313;
+    font-weight: 700;
+}
+.features{
+    color: #FF900E;;
+    font-weight: 700;
+}
+
+
+
+
+
 /* responsive media Queries */
 
 /* mobile devices */
